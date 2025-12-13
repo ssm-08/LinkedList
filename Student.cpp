@@ -12,8 +12,7 @@ Student::~Student() {
 
 void Student::getDisplay() {
   cout << "\n";
-  cout << Student;
-  cout << " (";
+  cout << name;
+  cout << ", ";
   cout << grade;
-  cout << ")";
 }
