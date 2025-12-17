@@ -5,6 +5,7 @@ Node::Node(Student* s) {
 }
 
 Node::~Node() {
+  delete student;
   student = NULL;
   next = NULL;
 }
